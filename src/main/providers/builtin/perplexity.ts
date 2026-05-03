@@ -25,6 +25,8 @@ export const perplexityConfig: BuiltinProviderConfig = {
     'Claude-Sonnet-4',
     'Claude-Opus-4',
     'Nemotron',
+    'Sonar',
+    'Sonar-Pro',
   ],
   modelMappings: {
     'Auto': 'auto',
@@ -35,6 +37,8 @@ export const perplexityConfig: BuiltinProviderConfig = {
     'Claude-Sonnet-4': 'claude4sonnet',
     'Claude-Opus-4': 'claude4opus',
     'Nemotron': 'nemotron',
+    'Sonar': 'sonar',
+    'Sonar-Pro': 'sonar_pro',
   },
   credentialFields: [
     {

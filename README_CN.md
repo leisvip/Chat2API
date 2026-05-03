@@ -49,14 +49,15 @@
 
 | 服务商           | 认证类型          | OAuth | 模型                                                                              |
 | ------------- | ------------- | ----- | ------------------------------------------------------------------------------- |
-| DeepSeek      | User Token    | 是     | DeepSeek-V3.2                                                                   |
-| GLM           | Refresh Token | 是     | GLM-5                                                                           |
-| Kimi          | JWT Token     | 是     | kimi-k2.5                                                                       |
-| MiniMax       | JWT Token     | 是     | MiniMax-M2.5                                                                    |
-| 🆕 Perplexity | JWT Token     | 是     | Sonar, Sonar Pro, Sonar Deep Research                                           |
-| Qwen (国内版)    | SSO Ticket    | 是     | Qwen3.5-Plus, Qwen3-Max, Qwen3-Flash, Qwen3-Coder, qwen-max-latest              |
-| Qwen AI (国际版) | JWT Token     | 是     | Qwen3.5-Plus, Qwen3-Max, Qwen3-VL-Plus, Qwen3-Coder-Plus, Qwen-Plus, Qwen-Turbo |
-| Z.ai          | JWT Token     | 是     | GLM-5, GLM-4.7, GLM-4.6V, GLM-4.6                                               |
+| DeepSeek      | User Token    | 是     | DeepSeek-V4-Pro, DeepSeek-V4-Flash, DeepSeek-V3.2                                      |
+| GLM           | Refresh Token | 是     | GLM-5.1, GLM-5, GLM-4.7, GLM-4.6                                                       |
+| Kimi          | JWT Token     | 是     | Kimi-K2.6, Kimi-K2.5, Kimi-Latest                                                       |
+| MiniMax       | JWT Token     | 是     | MiniMax-M2.5                                                                             |
+| Mimo          | Cookie        | 是     | MiMo-V2.5-Pro, MiMo-V2.5, mimo-v2-pro, mimo-v2-flash-studio, mimo-v2-omni               |
+| 🆕 Perplexity | JWT Token     | 是     | Sonar, Sonar Pro, GPT-5, Gemini-2.5-Pro, Claude-Sonnet-4, Claude-Opus-4                 |
+| Qwen (国内版)    | SSO Ticket    | 是     | Qwen3.6-Plus, Qwen3.6-27B, Qwen3.5-Plus, Qwen3-Max, Qwen3-Flash, Qwen3-Coder           |
+| Qwen AI (国际版) | JWT Token     | 是     | Qwen3.6-Plus, Qwen3.6-27B, Qwen3.5-Plus, Qwen3-Max, Qwen3-VL-Plus, Qwen3-Coder-Plus    |
+| Z.ai          | JWT Token     | 是     | GLM-5.1, GLM-5, GLM-4.7, GLM-4.6V, GLM-4.6                                              |
 
 ## 📥 安装
 

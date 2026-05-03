@@ -23,6 +23,8 @@ export const qwenConfig: BuiltinProviderConfig = {
     'Qwen3.5-Plus',
     'Qwen3-Flash',
     'Qwen3-Coder',
+    'Qwen3.6-Plus',
+    'Qwen3.6-27B',
   ],
   modelMappings: {
     'Qwen3': 'tongyi-qwen3-max-model-agent',
@@ -32,6 +34,8 @@ export const qwenConfig: BuiltinProviderConfig = {
     'Qwen3.5-Plus': 'Qwen3.5-Plus',
     'Qwen3-Flash': 'qwen3-flash',
     'Qwen3-Coder': 'qwen3-coder-plus',
+    'Qwen3.6-Plus': 'qwen3.6-plus',
+    'Qwen3.6-27B': 'qwen3.6-27b',
   },
   credentialFields: [
     {

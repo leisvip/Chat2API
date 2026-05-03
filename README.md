@@ -49,14 +49,15 @@
 
 | Provider         | Auth Type     | OAuth | Models                                                                          |
 | ---------------- | ------------- | ----- | ------------------------------------------------------------------------------- |
-| DeepSeek         | User Token    | Yes   | DeepSeek-V3.2                                                                   |
-| GLM              | Refresh Token | Yes   | GLM-5                                                                           |
-| Kimi             | JWT Token     | Yes   | kimi-k2.5                                                                       |
-| MiniMax          | JWT Token     | Yes   | MiniMax-M2.5                                                                    |
-| 🆕 Perplexity    | JWT Token     | Yes   | Sonar, Sonar Pro, Sonar Deep Research                                           |
-| Qwen (CN)        | SSO Ticket    | Yes   | Qwen3.5-Plus, Qwen3-Max, Qwen3-Flash, Qwen3-Coder, qwen-max-latest              |
-| Qwen AI (Global) | JWT Token     | Yes   | Qwen3.5-Plus, Qwen3-Max, Qwen3-VL-Plus, Qwen3-Coder-Plus, Qwen-Plus, Qwen-Turbo |
-| Z.ai             | JWT Token     | Yes   | GLM-5, GLM-4.7, GLM-4.6V, GLM-4.6                                               |
+| DeepSeek         | User Token    | Yes   | DeepSeek-V4-Pro, DeepSeek-V4-Flash, DeepSeek-V3.2                                      |
+| GLM              | Refresh Token | Yes   | GLM-5.1, GLM-5, GLM-4.7, GLM-4.6                                                      |
+| Kimi             | JWT Token     | Yes   | Kimi-K2.6, Kimi-K2.5, Kimi-Latest                                                      |
+| MiniMax          | JWT Token     | Yes   | MiniMax-M2.5                                                                            |
+| Mimo             | Cookie        | Yes   | MiMo-V2.5-Pro, MiMo-V2.5, mimo-v2-pro, mimo-v2-flash-studio, mimo-v2-omni              |
+| 🆕 Perplexity    | JWT Token     | Yes   | Sonar, Sonar Pro, GPT-5, Gemini-2.5-Pro, Claude-Sonnet-4, Claude-Opus-4                |
+| Qwen (CN)        | SSO Ticket    | Yes   | Qwen3.6-Plus, Qwen3.6-27B, Qwen3.5-Plus, Qwen3-Max, Qwen3-Flash, Qwen3-Coder          |
+| Qwen AI (Global) | JWT Token     | Yes   | Qwen3.6-Plus, Qwen3.6-27B, Qwen3.5-Plus, Qwen3-Max, Qwen3-VL-Plus, Qwen3-Coder-Plus   |
+| Z.ai             | JWT Token     | Yes   | GLM-5.1, GLM-5, GLM-4.7, GLM-4.6V, GLM-4.6                                             |
 
 ## 📥 Installation
 

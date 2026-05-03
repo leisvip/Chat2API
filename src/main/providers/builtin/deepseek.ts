@@ -33,12 +33,16 @@ export const deepseekConfig: BuiltinProviderConfig = {
     'DeepSeek-Search',
     'DeepSeek-R1',
     'DeepSeek-R1-Search',
+    'DeepSeek-V4-Pro',
+    'DeepSeek-V4-Flash',
   ],
   modelMappings: {
     'DeepSeek-V3.2': 'deepseek-chat',
     'DeepSeek-Search': 'deepseek-chat',
     'DeepSeek-R1': 'deepseek-chat',
     'DeepSeek-R1-Search': 'deepseek-chat',
+    'DeepSeek-V4-Pro': 'deepseek-v4-pro',
+    'DeepSeek-V4-Flash': 'deepseek-v4-flash',
   },
   credentialFields: [
     {
