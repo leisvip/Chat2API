@@ -34,9 +34,15 @@ export const glmConfig: BuiltinProviderConfig = {
   description: 'Zhipu Qingyan AI assistant, supports GLM-5 flagship model, deep thinking and video generation',
   supportedModels: [
     'GLM-5',
+    'GLM-5.1',
+    'GLM-4.7',
+    'GLM-4.6',
   ],
   modelMappings: {
     'GLM-5': 'glm-5',
+    'GLM-5.1': 'glm-5.1',
+    'GLM-4.7': 'glm-4.7',
+    'GLM-4.6': 'glm-4.6',
   },
   credentialFields: [
     {
